@@ -35,7 +35,7 @@ Entsprechend der Wahl des Spielers wird die Variable auf C für Bunt oder B für
 ![image4](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/Farbauswahl.png)
 
 Nach der Auswahl der Farbe wird der Broadcast *Fractal?* gesendet.
-Dies ist der Start für die Auswahl der geometrischen Form. 
+Dies ist der Start für die Auswahl der geometrischen Form. zuvor wird die Variable *Fractalchoice* aktiviert.
 Es kann zwischen einem Dreieck, Quadrat oder Pentagon gewählt werden. Nach der Auswahl verschwindet der Sprite und wir mussten am Ende des Scripts noch einen Hack einbauen, damit am Anfang der Sprite nicht die letzte Sprechblase zuerst anzeigt. Nur durch das Einfügen des Blocks *say: Hello* wurde dieser Fehler behoben. 
 
 ![image5](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/Anfang%203.png)
