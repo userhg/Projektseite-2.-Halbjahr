@@ -1,6 +1,6 @@
 # Projektseite-2.-Halbjahr
 
-### Inhaltsverzeichnis
+#### Inhaltsverzeichnis
 
 [Einleitung](#1)
 
