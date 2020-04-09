@@ -4,12 +4,14 @@
 
 [Einleitung](#1)
 
+[Auswahl der Eigenschaften](#2)
+
 
 ### <a name="1"></a>Einleitung
 Für dieses Projekt wollten wir etwas Neues ausprobieren. Wir haben uns schon seit Anfang der Benutzung von Snap! gefragt, was es mit den Blocks rund um "Pen" aufsich hat. In dem Curriculum con "The Beauty and Joyy of Computing haben wir nach Möglichkeiten gesucht, diese Funktionen von Snap! zu benutzten. (https://bjc.edc.org/bjc-r/course/bjc4nyc.html)
 Schnell sind wir fündig geworden. Uns hat das Thema "Recursion" interessiert und begonnen Fractals zu kreieren. Begonnen mit der Form eines Dreiecks haben wir das gleiche Prinzip auf einige andere geometrische Figuren anwenden wollen, sodass verschiedene Mandalas entstehen. Daraus haben wir nun eine Art Spiel gemacht, bei dem der Spieler verschiedene Auswahlmöglichkeiten hat, um verschiedene Formen/ Mandalas zeichnen zu lassen.
 
-### <a name="1"></a>Auswahl der Eigenschaften
+### <a name="2"></a>Auswahl der Eigenschaften
 Der Spieler hat drei Mal die Möglichkeit, das Fractal nach seinen Wünschen zu bestimmen, welches dann im Anschluss gezeichnet wird.
 Die Auswahl wird durch den Sprite *Welcome* koordiniert. 
 
