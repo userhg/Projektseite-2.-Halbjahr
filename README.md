@@ -51,12 +51,17 @@ Wird die Form ausgewählt, T für Dreieck, S für Quadrat und P  für Pentagon, 
 ![image6](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/Formauswahl.png)
 
 ### <a name="3"></a>Die Fractal Scripts
-Für jedes Fractal (Triangle, Square oder Pentagon) haben wir zuerst ein Scrpit für die einfache Form gebaut. "Trinagle size_" "Squar size_" und "Pentagon size_"
-Diese beruhen auf dem Prinzip, dass der Sprite sich eine variierbare Länge (size) bewegt und sich dann um eine bestimmte Gradzahl dreht. Bei einem Dreeick muss dieser Vorgang dreimal wiederholt werden, da ein Dreieck drei Seiten besitzt. Die Befehle "move size steps" und "turn _ degrees" werden also in eine Schleife von drei Wiederholungen gesetzt. 
+Für jedes Fractal (Triangle, Square oder Pentagon) haben wir zuerst ein Scrpit für die einfache Form gebaut. "Trinagle size_" "Square size_" und "Pentagon size_"
+Diese beruhen auf dem Prinzip, dass der Sprite sich eine bestimmte Länge (size) bewegt und sich dann um eine bestimmte Gradzahl dreht. Bei einem Dreeick muss dieser Vorgang dreimal wiederholt werden, da ein Dreieck drei Seiten besitzt. Die Befehle "move size steps" und "turn _ degrees" werden also in eine Schleife von drei Wiederholungen gesetzt. 
 Die Gradzahl lässt sich mit der Winkelsumme eines Dreiecks und den Winkelgesetzen bestimmen. In einem Dreeick betragen alle Winkel zusammen 180 Grad. Da wir ein gleichwinkliges Dreieck zeichnen, können wir daraus schließen, dass der Sprite sich 120 Grad drehen muss, um zwischen den Seiten einen Winkel von 60 Grad zu bekommen. Im Inneren des Dreiecks befindet sich also der Scheitelwinkel mit 60 Grad. Mit dem Nebewinkel von 120 Grad addiert ergeben sich so 180 Grad. 
 In das Script für die einfache Form ist auch der Block "pen down" integriert, damit die Strecke des Sprites aufgezeichnet wird.
 das 
 Für die anderen Formen, dem Quadrat und dem Pentagon, geht man nach dem selben Prinzip vor. Vier Wiederholungen und 270 Grad (im Viereck Winkelsumme 360 Grad) für das Viereck, fünf Wiederholungen und 432 Grad (Winkelsumme im Pentagon 540 Grad) für das Pentagon. 
 
 Diese Blocks für die Grundformen haben wir in den Block für die Mandalas gesetzt. Zu der variiebaren *size* kommt die Variabel *Level* dazu. 
-Wird das Level 0 gewählt, ensteht nur die Grundform. Der von uns erstellte Block "Triangle size" wird ausgeführt. Hat der Spieler die Level 1, 2, oder 3 gewählt, so kommt der neue von uns erstellte Block "Triangle fractal level _ size_" an die Reihe. In diesem Block ist eingebaut, dass das Level jeweils um 1 subtrahiert wird und die Größe der Formen um 0.5 verkleinert. Mit dem vorherigen Befehl "move size steps" und dem folgendem Befehl "turn _ degrees" enstehen so an den Ecken der Formen jeweils die neuen Formen und das gewünschte Fractal entsteht. Die Befehle kennen wir aus dem Script für die Grundformen. Damit ein 
+Wird das Level 0 gewählt, ensteht nur die Grundform. Der von uns erstellte Block "Triangle size" wird ausgeführt. Hat der Spieler die Level 1, 2, oder 3 gewählt, so kommt der neue von uns erstellte Block "Triangle fractal level _ size_" an die Reihe. In diesem Block ist eingebaut, dass das Level jeweils um 1 subtrahiert wird und die Größe der Formen um 0.5 verkleinert. Mit dem vorherigen Befehl "move size steps" und dem folgendem Befehl "turn _ degrees" enstehen so an den Ecken der Formen jeweils die neuen Formen und das gewünschte Fractal entsteht. Die Befehle kennen wir aus dem Script für die Grundformen. Wie dort, muss das Ganze sooft wiederholt werden, wie die Form Seiten hat.
+
+Für die farbliche Variante, haben wir für jede Figur denselben Block "Triangle fractal level _ size_" mit dem Befehl "change pen hue by -5 " erweitert, sodass ein Farbverlauf entsteht. 
+Je nachdam, welches Level, welche Form und welche Farboption gewählt wurde (siehe Auswahl der Eigenschaften), wird der jeweilige Block ausgeführt und man erhält sein gewünschtes Fractal.
+
+### <a name="4"></a>Reflexion
