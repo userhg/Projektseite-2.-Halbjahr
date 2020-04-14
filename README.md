@@ -6,6 +6,10 @@
 
 [Auswahl der Eigenschaften](#2)
 
+[Die Fractal Srcipts](#3)
+
+[Reflexion](#4)
+
 
 ### <a name="1"></a>Einleitung
 Für dieses Projekt wollten wir etwas Neues ausprobieren. Wir haben uns schon seit Anfang der Benutzung von Snap! gefragt, was es mit den Blocks rund um "Pen" aufsich hat. In dem Curriculum con "The Beauty and Joyy of Computing haben wir nach Möglichkeiten gesucht, diese Funktionen von Snap! zu benutzten. (https://bjc.edc.org/bjc-r/course/bjc4nyc.html)
@@ -45,3 +49,14 @@ Es kann zwischen einem Dreieck, Quadrat oder Pentagon gewählt werden. Nach der 
 Wird die Form ausgewählt, T für Dreieck, S für Quadrat und P  für Pentagon, so wird die Variable *Fractalchoice* auf die entsprechende Form gesetzt und blockiert. Außerdem wird ein Broadcast mit der Bezeichnung der ausgewählten Form verschickt, was zu Ausführung der entsprechenden Zeichnung führt. 
 
 ![image6](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/Formauswahl.png)
+
+### <a name="3"></a>Die Fractal Scripts
+Für jedes Fractal (Triangle, Square oder Pentagon) haben wir zuerst ein Scrpit für die einfache Form gebaut. "Trinagle size_" "Squar size_" und "Pentagon size_"
+Diese beruhen auf dem Prinzip, dass der Sprite sich eine variierbare Länge (size) bewegt und sich dann um eine bestimmte Gradzahl dreht. Bei einem Dreeick muss dieser Vorgang dreimal wiederholt werden, da ein Dreieck drei Seiten besitzt. Die Befehle "move size steps" und "turn _ degrees" werden also in eine Schleife von drei Wiederholungen gesetzt. 
+Die Gradzahl lässt sich mit der Winkelsumme eines Dreiecks und den Winkelgesetzen bestimmen. In einem Dreeick betragen alle Winkel zusammen 180 Grad. Da wir ein gleichwinkliges Dreieck zeichnen, können wir daraus schließen, dass der Sprite sich 120 Grad drehen muss, um zwischen den Seiten einen Winkel von 60 Grad zu bekommen. Im Inneren des Dreiecks befindet sich also der Scheitelwinkel mit 60 Grad. Mit dem Nebewinkel von 120 Grad addiert ergeben sich so 180 Grad. 
+In das Script für die einfache Form ist auch der Block "pen down" integriert, damit die Strecke des Sprites aufgezeichnet wird.
+das 
+Für die anderen Formen, dem Quadrat und dem Pentagon, geht man nach dem selben Prinzip vor. Vier Wiederholungen und 270 Grad (im Viereck Winkelsumme 360 Grad) für das Viereck, fünf Wiederholungen und 432 Grad (Winkelsumme im Pentagon 540 Grad) für das Pentagon. 
+
+Diese Blocks für die Grundformen haben wir in den Block für die Mandalas gesetzt. Zu der variiebaren *size* kommt die Variabel *Level* dazu. 
+Wird das Level 0 gewählt, ensteht nur die Grundform. Der von uns erstellte Block "Triangle size" wird ausgeführt. Hat der Spieler die Level 1, 2, oder 3 gewählt, so kommt der neue von uns erstellte Block "Triangle fractal level _ size_" an die Reihe. In diesem Block ist eingebaut, dass das Level jeweils um 1 subtrahiert wird und die Größe der Formen um 0.5 verkleinert. Mit dem vorherigen Befehl "move size steps" und dem folgendem Befehl "turn _ degrees" enstehen so an den Ecken der Formen jeweils die neuen Formen und das gewünschte Fractal entsteht. Die Befehle kennen wir aus dem Script für die Grundformen. Damit ein 
