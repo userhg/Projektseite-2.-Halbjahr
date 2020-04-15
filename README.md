@@ -92,8 +92,8 @@ Mögliche Ergebnisse könnten so aussehen:
 ![image16](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/Erg.2.png)
 ![image17](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/Erg.3.png)
 ![image18](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/Erg.4.png)
-![image19]()
-![image20]
+![image19](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/Erg.5.png)
+![image20]()
 ### <a name="4"></a>Reflexion
 Anfangs hatten wir Schwierigkeiten ein Thema zu finden, welches uns reizte zu erarbeiten oder wir hatten Probleme bei der Umsetzung. Dadurch haben wir ein wenig Zeit verloren und relativ spät mit unserer wirklichen Idee begonnen. Wir hätten noch mehr Level ins "Spiel" bauen können oder mehr Zeit gehabt, uns mit einer allgemeineren Formel zu beschäftigen, was uns leider nicht gelungen ist. 
 Insgesamt können wir aber sagen, dass wir zufrieden mit unserem Ergebnis sind. Wir haben es geschafft, eigene Blocks zu erstellen und mit Rekursion zu arbeiten. Auch sind wir mit unserer Lösung glücklich, das Ganze als ein Spiel aufzuziehen und zu verbinden.
