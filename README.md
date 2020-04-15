@@ -69,9 +69,12 @@ Wird das Level 0 gewählt, ensteht nur die Grundform. Der von uns erstellte Bloc
 
 Beispiel Dreieck-Fractal:
 
-![image11]()
+![image11](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/T%20fractal%20%20.png)
 
-Für die farbliche Variante, haben wir für jede Figur denselben Block "Triangle fractal level _ size_" mit dem Befehl "change pen hue by -5 " erweitert, sodass ein Farbverlauf entsteht. 
+Für die farbliche Variante, haben wir für jede Figur denselben Block "Triangle fractal level _ size_" mit dem Befehl "change pen hue by -5 " erweitert, sodass ein Farbverlauf entsteht.
+
+![image12]()
+
 Je nachdam, welches Level, welche Form und welche Farboption gewählt wurde (siehe Auswahl der Eigenschaften), wird der jeweilige Block ausgeführt und man erhält sein gewünschtes Fractal.
 Bei Schwarz wird die Farbe vorher, außerhalb des "Triangle fractal level _ size_" - Blocks,  durch "set pen colour to _ " zu schwarz geändert. 
 
