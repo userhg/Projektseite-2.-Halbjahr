@@ -89,7 +89,7 @@ Am Anfang des Spiels, wenn die grüne Flagge geklickt ist, wird der Bildschirm "
 Mögliche Ergebnisse könnten so aussehen:
 
 ![image15](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/Erg.1.png)
-![image16]
+![image16](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/Erg.2.png)
 ![image17]
 ![image18]
 ![image19]
