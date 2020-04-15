@@ -60,7 +60,7 @@ In das Script für die einfache Form ist auch der Block "pen down" integriert, d
 
 Für die anderen Formen, dem Quadrat und dem Pentagon, geht man nach dem selben Prinzip vor. Vier Wiederholungen und 270 Grad (im Viereck Winkelsumme 360 Grad) für das Viereck, fünf Wiederholungen und 432 Grad (Winkelsumme im Pentagon 540 Grad) für das Pentagon. 
 
-![image9]()
+![image9](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/square%20size%201.png)
 
 ![image10]()
 
