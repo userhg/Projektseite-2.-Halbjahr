@@ -80,9 +80,11 @@ Mit diesem Prinzip haben wir ebenfalls die Viereckversion und die Fünfeckversio
 Je nachdam, welches Level, welche Form und welche Farboption gewählt wurde (siehe Auswahl der Eigenschaften), wird der jeweilige Block ausgeführt und man erhält sein gewünschtes Fractal.
 Bei Schwarz wird die Farbe vorher, außerhalb des "Triangle fractal level _ size_" - Blocks,  durch "set pen colour to _ " zu schwarz geändert. 
 
-![image13]()
+![image13](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/Auswertung.png)
 
 Am Anfang des Spiels, wenn die grüne Flagge geklickt ist, wird der Bildschirm "entleert", gezeichnete Fractals gelöscht ("clear"), die Farbe wird auf die Ursprungsfarbe zurück geändert ("set pen colour to") und der Sprite wird in die Ausgangssituation zurück gebracht (go to x: 0 y:-70). Der Sprite ist während des ganzen Vorgangs nicht zu sehen (hide). 
+
+![image]()
 
 ### <a name="4"></a>Reflexion
 Anfangs hatten wir Schwierigkeiten ein Thema zu finden, welches uns reizte zu erarbeiten oder wir hatten Probleme bei der Umsetzung. Dadurch haben wir ein wenig Zeit verloren und relativ spät mit unserer wirklichen Idee begonnen. Wir hätten noch mehr Level ins "Spiel" bauen können oder mehr Zeit gehabt, uns mit einer allgemeineren Formel zu beschäftigen, was uns leider nicht gelungen ist. 
