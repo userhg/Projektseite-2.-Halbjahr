@@ -84,12 +84,16 @@ Bei Schwarz wird die Farbe vorher, außerhalb des "Triangle fractal level _ size
 
 Am Anfang des Spiels, wenn die grüne Flagge geklickt ist, wird der Bildschirm "entleert", gezeichnete Fractals gelöscht ("clear"), die Farbe wird auf die Ursprungsfarbe zurück geändert ("set pen colour to") und der Sprite wird in die Ausgangssituation zurück gebracht (go to x: 0 y:-70). Der Sprite ist während des ganzen Vorgangs nicht zu sehen (hide). 
 
-![image](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/drawer%20start.png)
+![image14](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/drawer%20start.png)
 
 Mögliche Ergebnisse könnten so aussehen:
 
-
-
+![image15](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/Erg.1.png)
+![image16]
+![image17]
+![image18]
+![image19]
+![image20]
 ### <a name="4"></a>Reflexion
 Anfangs hatten wir Schwierigkeiten ein Thema zu finden, welches uns reizte zu erarbeiten oder wir hatten Probleme bei der Umsetzung. Dadurch haben wir ein wenig Zeit verloren und relativ spät mit unserer wirklichen Idee begonnen. Wir hätten noch mehr Level ins "Spiel" bauen können oder mehr Zeit gehabt, uns mit einer allgemeineren Formel zu beschäftigen, was uns leider nicht gelungen ist. 
 Insgesamt können wir aber sagen, dass wir zufrieden mit unserem Ergebnis sind. Wir haben es geschafft, eigene Blocks zu erstellen und mit Rekursion zu arbeiten. Auch sind wir mit unserer Lösung glücklich, das Ganze als ein Spiel aufzuziehen und zu verbinden.
