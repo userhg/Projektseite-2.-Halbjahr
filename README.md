@@ -73,10 +73,14 @@ Beispiel Dreieck-Fractal:
 
 Für die farbliche Variante, haben wir für jede Figur denselben Block "Triangle fractal level _ size_" mit dem Befehl "change pen hue by -5 " erweitert, sodass ein Farbverlauf entsteht.
 
-![image12]()
+![image12](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/T%20fractal%20colour.png)
+
+Mit diesem Prinzip haben wir ebenfalls die Viereckversion und die Fünfeckversion erstellt.
 
 Je nachdam, welches Level, welche Form und welche Farboption gewählt wurde (siehe Auswahl der Eigenschaften), wird der jeweilige Block ausgeführt und man erhält sein gewünschtes Fractal.
 Bei Schwarz wird die Farbe vorher, außerhalb des "Triangle fractal level _ size_" - Blocks,  durch "set pen colour to _ " zu schwarz geändert. 
+
+![image13]()
 
 Am Anfang des Spiels, wenn die grüne Flagge geklickt ist, wird der Bildschirm "entleert", gezeichnete Fractals gelöscht ("clear"), die Farbe wird auf die Ursprungsfarbe zurück geändert ("set pen colour to") und der Sprite wird in die Ausgangssituation zurück gebracht (go to x: 0 y:-70). Der Sprite ist während des ganzen Vorgangs nicht zu sehen (hide). 
 
