@@ -90,8 +90,8 @@ Mögliche Ergebnisse könnten so aussehen:
 
 ![image15](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/Erg.1.png)
 ![image16](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/Erg.2.png)
-![image17]
-![image18]
+![image17](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/Erg.3.png)
+![image18]()
 ![image19]
 ![image20]
 ### <a name="4"></a>Reflexion
