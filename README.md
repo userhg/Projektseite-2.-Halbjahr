@@ -62,10 +62,14 @@ Für die anderen Formen, dem Quadrat und dem Pentagon, geht man nach dem selben 
 
 ![image9](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/square%20size%201.png)
 
-![image10]()
+![image10](https://github.com/userhg/Projektseite-2.-Halbjahr/blob/master/pentagon%20block%201.png)
 
-Diese Blocks für die Grundformen haben wir in den Block für die Mandalas gesetzt. Zu der variiebaren *size* kommt die Variabel *Level* dazu. 
-Wird das Level 0 gewählt, ensteht nur die Grundform. Der von uns erstellte Block "Triangle size" wird ausgeführt. Hat der Spieler die Level 1, 2, oder 3 gewählt, so kommt der neue von uns erstellte Block "Triangle fractal level _ size_" an die Reihe. In diesem Block ist eingebaut, dass das Level jeweils um 1 subtrahiert wird und die Größe der Formen um 0.5 verkleinert.  Mit dem vorherigen Befehl "move size steps" und dem folgendem Befehl "turn _ degrees" enstehen so an den Ecken der Formen jeweils die neuen Formen und das gewünschte Fractal entsteht. Die Befehle kennen wir aus dem Script für die Grundformen. Wie dort, muss das Ganze sooft wiederholt werden, wie die Form Seiten hat.
+Diese Blocks für die Grundformen haben wir in den Block für die Mandalas gesetzt. Zu der variirbaren *size* kommt die Variabel *Level* dazu. 
+Wird das Level 0 gewählt, ensteht nur die Grundform. Der von uns erstellte Block "Triangle size" wird ausgeführt. Hat der Spieler die Level 1, 2, oder 3 gewählt, so kommt der neue von uns erstellte Block "Triangle fractal level _ size_" an die Reihe. In diesem Block ist eingebaut, dass das Level jeweils um 1 subtrahiert wird und die Größe der Formen um 0.5 verkleinert, sodass sich der Block solange selbst aufruft, bis das Level 0 durch Substraktion erreicht wird. Mit dem vorherigen Befehl "move size steps" und dem folgendem Befehl "turn _ degrees" enstehen so an den Ecken der Formen jeweils die neuen Formen und das gewünschte Fractal entsteht. Die Befehle kennen wir aus dem Script für die Grundformen. Wie dort, muss das Ganze sooft wiederholt werden, wie die Form Seiten hat.
+
+Beispiel Dreieck-Fractal:
+
+![image11]()
 
 Für die farbliche Variante, haben wir für jede Figur denselben Block "Triangle fractal level _ size_" mit dem Befehl "change pen hue by -5 " erweitert, sodass ein Farbverlauf entsteht. 
 Je nachdam, welches Level, welche Form und welche Farboption gewählt wurde (siehe Auswahl der Eigenschaften), wird der jeweilige Block ausgeführt und man erhält sein gewünschtes Fractal.
