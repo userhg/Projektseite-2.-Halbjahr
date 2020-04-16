@@ -1,5 +1,8 @@
 # Projektseite-2.-Halbjahr
 
+von Gesche Meyer
+und Hannah Fußner
+
 ## Inhaltsverzeichnis
 
 [Einleitung](#1)
